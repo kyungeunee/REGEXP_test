@@ -121,4 +121,4 @@ console.log(str2.match(/\w{1,}(?=@)/g)) //["thegi"]
 // @ 뒤쪽 일치 작성
 console.log(str2.match(/.{1,}(?<=@)/g)) //["thegi@"]
 console.log(str2.match(/(?<=@).{1,}/g)) //["naver.com"]
-//뒤쪽일치는 뒤에다 작성해줘야함!
+//앞쪽 일치는 앞에, 뒤쪽일치는 뒤에다 작성해줘야함!
